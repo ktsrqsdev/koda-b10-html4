@@ -3,33 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic HTML Table</title>
     <link rel="stylesheet" href="style.css">
+    <title>Semantic Layout</title>
 </head>
 <body>
-    <div>
-        <table border="5px" width="500px" height="500px">
-            <thead>
-                <tr>
-                    <th colspan="2"><font size="5px" color="cyan">&lt;header&gt;</font></th>
-                </tr>
-                <tr>
-                    <th colspan="2"><font size="5px" color="skyblue">&lt;nav&gt;</font></th>
-                </tr>
-                <tr>
-                    <th rowspan="2"><font size="5px" color="magenta">&lt;section&gt;</font></th>
-                </tr>
-                <tr>
-                    <th rowspan="2"><font size="5px" color="gold">&lt;aside&gt;</font></th>
-                </tr>
-                <tr>
-                    <th rowspan="1"><font size="5px" color="lightblue">&lt;article&gt;</font></th>
-                </tr>
-                <tr>
-                    <th colspan="2"><font size="5px" color="red">&lt;footer&gt;</font></th>
-                </tr>
-            </thead>
-        </table>
+    <div class="page">
+        <header>&lt;header&gt;</header>
+        <nav>&lt;nav&gt;</nav>
+        <main>
+            <div class="col">
+                <section>&lt;section&gt;</section>
+                <article>&lt;article&gt;</article>
+            </div>
+            <aside>&lt;aside&gt;</aside>
+        </main>
+        <footer>&lt;footer&gt;</footer>
     </div>
 </body>
 </html>
