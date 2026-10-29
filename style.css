@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 50px 50px 1fr 50px;
+    gap: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 5px;
+    background: white;
+}
+
+header, nav, section, article, aside, footer {
+    display: grid;
+    place-items: center;
+    background: #111;
+    font-size: 24px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+}
+
+.col {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+}
+
+header {
+    color: cyan;
+}
+
+nav {
+    color: skyblue;
+}
+
+section {
+    color: magenta;
+}
+
+article {
+    color: lightblue;
+}
+
+aside {
+    color: gold;
+}
+
+footer {
+    color: red;
+}
