@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 5px;
+    background: white;
+}
+
+header, nav, section, article, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    font-size: 24px;
+}
+
+header, nav, footer {
+    height: 50px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 5px;
+}
+
+header {
+    color: cyan;
+}
+
+nav {
+    color: skyblue;
+}
+
+section {
+    flex: 2;
+    color: magenta;
+}
+
+article {
+    flex: 1;
+    color: lightblue;
+}
+
+aside {
+    flex: 1;
+    color: gold;
+}
+
+footer {
+    color: red;
+}
